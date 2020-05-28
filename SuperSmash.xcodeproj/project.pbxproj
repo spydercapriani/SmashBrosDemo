@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51002CE4247F56F9006EBCE0 /* CharacterView+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51002CE3247F56F9006EBCE0 /* CharacterView+Component.swift */; };
+		51002CE9247F57D4006EBCE0 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51002CE8247F57D4006EBCE0 /* SelectionView.swift */; };
+		51002CEB247F5B95006EBCE0 /* ImageViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51002CEA247F5B95006EBCE0 /* ImageViewContainer.swift */; };
+		51002CED247F5DC6006EBCE0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51002CEC247F5DC6006EBCE0 /* AppState.swift */; };
+		51002CF124802890006EBCE0 /* ATView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51002CF024802890006EBCE0 /* ATView.swift */; };
+		51002CF324802D2A006EBCE0 /* BattleView+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51002CF224802D2A006EBCE0 /* BattleView+Component.swift */; };
+		51002CF524802D48006EBCE0 /* ChooseCharacterView+Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51002CF424802D48006EBCE0 /* ChooseCharacterView+Component.swift */; };
+		5105945B247CBA68003C1CBF /* AirtableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5105945A247CBA68003C1CBF /* AirtableService.swift */; };
+		5105945D247CBBA3003C1CBF /* UIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5105945C247CBBA3003C1CBF /* UIComponent.swift */; };
+		5105945F247CBBC8003C1CBF /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5105945E247CBBC8003C1CBF /* View+Extensions.swift */; };
+		51059461247DF743003C1CBF /* SmashCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51059460247DF743003C1CBF /* SmashCharacter.swift */; };
 		51C2D06E2477220500DED286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2D06D2477220500DED286 /* AppDelegate.swift */; };
 		51C2D0702477220500DED286 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2D06F2477220500DED286 /* SceneDelegate.swift */; };
 		51C2D0722477220500DED286 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2D0712477220500DED286 /* ContentView.swift */; };
 		51C2D0742477220600DED286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C2D0732477220600DED286 /* Assets.xcassets */; };
 		51C2D0772477220600DED286 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C2D0762477220600DED286 /* Preview Assets.xcassets */; };
 		51C2D07A2477220600DED286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C2D0782477220600DED286 /* LaunchScreen.storyboard */; };
+		965045ECE564E0A82FAABFD3 /* libPods-SuperSmash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71FF56581D89F79103AEC2EC /* libPods-SuperSmash.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51002CE3247F56F9006EBCE0 /* CharacterView+Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterView+Component.swift"; sourceTree = "<group>"; };
+		51002CE8247F57D4006EBCE0 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		51002CEA247F5B95006EBCE0 /* ImageViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewContainer.swift; sourceTree = "<group>"; };
+		51002CEC247F5DC6006EBCE0 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		51002CF024802890006EBCE0 /* ATView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATView.swift; sourceTree = "<group>"; };
+		51002CF224802D2A006EBCE0 /* BattleView+Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BattleView+Component.swift"; sourceTree = "<group>"; };
+		51002CF424802D48006EBCE0 /* ChooseCharacterView+Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChooseCharacterView+Component.swift"; sourceTree = "<group>"; };
+		5105945A247CBA68003C1CBF /* AirtableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtableService.swift; sourceTree = "<group>"; };
+		5105945C247CBBA3003C1CBF /* UIComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponent.swift; sourceTree = "<group>"; };
+		5105945E247CBBC8003C1CBF /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		51059460247DF743003C1CBF /* SmashCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashCharacter.swift; sourceTree = "<group>"; };
 		51C2D06A2477220500DED286 /* SuperSmash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSmash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C2D06D2477220500DED286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C2D06F2477220500DED286 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,9 @@
 		51C2D0762477220600DED286 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51C2D0792477220600DED286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51C2D07B2477220600DED286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB968508AB28884DEB1AE37 /* Pods-SuperSmash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperSmash.release.xcconfig"; path = "Target Support Files/Pods-SuperSmash/Pods-SuperSmash.release.xcconfig"; sourceTree = "<group>"; };
+		71FF56581D89F79103AEC2EC /* libPods-SuperSmash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperSmash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8DCFE639E86B987B2489CC /* Pods-SuperSmash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperSmash.debug.xcconfig"; path = "Target Support Files/Pods-SuperSmash/Pods-SuperSmash.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965045ECE564E0A82FAABFD3 /* libPods-SuperSmash.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A2E795E228759ABA7F314F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71FF56581D89F79103AEC2EC /* libPods-SuperSmash.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51002CE5247F5795006EBCE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51059460247DF743003C1CBF /* SmashCharacter.swift */,
+				51002CF024802890006EBCE0 /* ATView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		51002CE6247F579C006EBCE0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5105945A247CBA68003C1CBF /* AirtableService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		51002CE7247F57B1006EBCE0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5105945E247CBBC8003C1CBF /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		51002CEF247FF800006EBCE0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5105945C247CBBA3003C1CBF /* UIComponent.swift */,
+				51002CF224802D2A006EBCE0 /* BattleView+Component.swift */,
+				51002CF424802D48006EBCE0 /* ChooseCharacterView+Component.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		51C2D0612477220500DED286 = {
 			isa = PBXGroup;
 			children = (
 				51C2D06C2477220500DED286 /* SuperSmash */,
 				51C2D06B2477220500DED286 /* Products */,
+				C45386D6282F28286A8A383A /* Pods */,
+				03A2E795E228759ABA7F314F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +128,20 @@
 		51C2D06C2477220500DED286 /* SuperSmash */ = {
 			isa = PBXGroup;
 			children = (
+				51002CE6247F579C006EBCE0 /* Services */,
+				51002CE5247F5795006EBCE0 /* Models */,
+				51002CE7247F57B1006EBCE0 /* Extensions */,
 				51C2D06D2477220500DED286 /* AppDelegate.swift */,
 				51C2D06F2477220500DED286 /* SceneDelegate.swift */,
-				51C2D0712477220500DED286 /* ContentView.swift */,
 				51C2D0732477220600DED286 /* Assets.xcassets */,
 				51C2D0782477220600DED286 /* LaunchScreen.storyboard */,
 				51C2D07B2477220600DED286 /* Info.plist */,
 				51C2D0752477220600DED286 /* Preview Content */,
+				51002CEF247FF800006EBCE0 /* Components */,
+				51C2D0712477220500DED286 /* ContentView.swift */,
+				51002CE3247F56F9006EBCE0 /* CharacterView+Component.swift */,
+				51002CE8247F57D4006EBCE0 /* SelectionView.swift */,
+				51002CEA247F5B95006EBCE0 /* ImageViewContainer.swift */,
 			);
 			path = SuperSmash;
 			sourceTree = "<group>";
@@ -70,9 +149,19 @@
 		51C2D0752477220600DED286 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				51002CEC247F5DC6006EBCE0 /* AppState.swift */,
 				51C2D0762477220600DED286 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C45386D6282F28286A8A383A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC8DCFE639E86B987B2489CC /* Pods-SuperSmash.debug.xcconfig */,
+				5AB968508AB28884DEB1AE37 /* Pods-SuperSmash.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51C2D07E2477220600DED286 /* Build configuration list for PBXNativeTarget "SuperSmash" */;
 			buildPhases = (
+				06E69915A979FFFBA1426191 /* [CP] Check Pods Manifest.lock */,
 				51C2D0662477220500DED286 /* Sources */,
 				51C2D0672477220500DED286 /* Frameworks */,
 				51C2D0682477220500DED286 /* Resources */,
@@ -141,14 +231,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06E69915A979FFFBA1426191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperSmash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51C2D0662477220500DED286 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51059461247DF743003C1CBF /* SmashCharacter.swift in Sources */,
 				51C2D06E2477220500DED286 /* AppDelegate.swift in Sources */,
+				5105945B247CBA68003C1CBF /* AirtableService.swift in Sources */,
 				51C2D0702477220500DED286 /* SceneDelegate.swift in Sources */,
+				51002CEB247F5B95006EBCE0 /* ImageViewContainer.swift in Sources */,
 				51C2D0722477220500DED286 /* ContentView.swift in Sources */,
+				51002CE9247F57D4006EBCE0 /* SelectionView.swift in Sources */,
+				51002CF124802890006EBCE0 /* ATView.swift in Sources */,
+				5105945F247CBBC8003C1CBF /* View+Extensions.swift in Sources */,
+				51002CF324802D2A006EBCE0 /* BattleView+Component.swift in Sources */,
+				51002CE4247F56F9006EBCE0 /* CharacterView+Component.swift in Sources */,
+				51002CED247F5DC6006EBCE0 /* AppState.swift in Sources */,
+				5105945D247CBBA3003C1CBF /* UIComponent.swift in Sources */,
+				51002CF524802D48006EBCE0 /* ChooseCharacterView+Component.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +408,7 @@
 		};
 		51C2D07F2477220600DED286 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8DCFE639E86B987B2489CC /* Pods-SuperSmash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +429,7 @@
 		};
 		51C2D0802477220600DED286 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB968508AB28884DEB1AE37 /* Pods-SuperSmash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
