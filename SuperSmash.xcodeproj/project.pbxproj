@@ -103,8 +103,18 @@
 				5105945C247CBBA3003C1CBF /* UIComponent.swift */,
 				51002CF224802D2A006EBCE0 /* BattleView+Component.swift */,
 				51002CF424802D48006EBCE0 /* ChooseCharacterView+Component.swift */,
+				51002CE3247F56F9006EBCE0 /* CharacterView+Component.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		51002CF62480365C006EBCE0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				51002CEC247F5DC6006EBCE0 /* AppState.swift */,
+				51002CEA247F5B95006EBCE0 /* ImageViewContainer.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		51C2D0612477220500DED286 = {
@@ -128,20 +138,19 @@
 		51C2D06C2477220500DED286 /* SuperSmash */ = {
 			isa = PBXGroup;
 			children = (
-				51002CE6247F579C006EBCE0 /* Services */,
-				51002CE5247F5795006EBCE0 /* Models */,
+				51002CF62480365C006EBCE0 /* Common */,
+				51002CEF247FF800006EBCE0 /* Components */,
 				51002CE7247F57B1006EBCE0 /* Extensions */,
+				51002CE5247F5795006EBCE0 /* Models */,
+				51002CE6247F579C006EBCE0 /* Services */,
 				51C2D06D2477220500DED286 /* AppDelegate.swift */,
 				51C2D06F2477220500DED286 /* SceneDelegate.swift */,
+				51C2D0712477220500DED286 /* ContentView.swift */,
+				51002CE8247F57D4006EBCE0 /* SelectionView.swift */,
 				51C2D0732477220600DED286 /* Assets.xcassets */,
 				51C2D0782477220600DED286 /* LaunchScreen.storyboard */,
 				51C2D07B2477220600DED286 /* Info.plist */,
 				51C2D0752477220600DED286 /* Preview Content */,
-				51002CEF247FF800006EBCE0 /* Components */,
-				51C2D0712477220500DED286 /* ContentView.swift */,
-				51002CE3247F56F9006EBCE0 /* CharacterView+Component.swift */,
-				51002CE8247F57D4006EBCE0 /* SelectionView.swift */,
-				51002CEA247F5B95006EBCE0 /* ImageViewContainer.swift */,
 			);
 			path = SuperSmash;
 			sourceTree = "<group>";
@@ -149,7 +158,6 @@
 		51C2D0752477220600DED286 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				51002CEC247F5DC6006EBCE0 /* AppState.swift */,
 				51C2D0762477220600DED286 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
