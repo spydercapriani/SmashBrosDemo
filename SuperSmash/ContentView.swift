@@ -56,11 +56,8 @@ struct ContentView: View {
             .filter { $0.row == 0 }
             .sorted(by: { $0.column < $1.column })
             .map {
-                CharacterComponent(
-                    $0,
-                    characterTapped: self.characterTapped(_:)
-                )
-        }
+                CharacterComponent($0, characterTapped: self.characterTapped(_:))
+            }
     }
     
     private var secondRowComponents: [UIComponent] {
@@ -68,11 +65,8 @@ struct ContentView: View {
             .filter { $0.row == 1 }
             .sorted(by: { $0.column < $1.column })
             .map {
-                CharacterComponent(
-                    $0,
-                    characterTapped: self.characterTapped(_:)
-                )
-        }
+                CharacterComponent($0, characterTapped: self.characterTapped(_:))    
+            }
     }
 
     // MARK: - Private Functions
