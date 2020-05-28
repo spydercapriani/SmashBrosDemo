@@ -26,14 +26,15 @@ struct AirtableService {
         }
     }
     
-    static func getViews(completion: @escaping (Result<[ATView], Error>) -> Void) {
+    static func getViews(completion: @escaping (Result<[UIComponent], Error>) -> Void) {
         let airtable = Airtable(apiKey: apiKey, apiBaseUrl: apiBaseUrl, schema: ATView.schema)
         
         airtable.fetchAll(table: ATView.airtableViewName) { (views: [ATView], error) in
             if let error = error {
                 completion(.failure(error))
             } else {
-                completion(.success(views))
+                let components = parseViewsToComponents(views: views)
+                completion(.success(components))
             }
         }
     }
@@ -47,6 +48,20 @@ struct AirtableService {
         airtable.updateObject(with: updatedCharacter, inTable: SmashCharacter.airtableViewName) { character, error in
 //            print(error)
             completion(error)
+        }
+    }
+    
+    private static func parseViewsToComponents(views: [ATView]) -> [UIComponent] {
+        views
+            .sorted(by: { $0.position < $1.position })
+            .map {
+                switch $0.viewType {
+                case .battleType:
+                    return BattleComponent(uniqueId: $0.id, text: $0.text)
+                
+                case .chooseCharacter:
+                    return ChooseCharacterComponent(uniqueId: $0.id, text: $0.text)
+                }
         }
     }
 }

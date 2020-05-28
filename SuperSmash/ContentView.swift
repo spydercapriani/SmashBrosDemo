@@ -15,7 +15,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 12) {
-            ForEach(atViews, id: \.uniqueId) {
+            ForEach(state.viewComponents, id: \.uniqueId) {
                 $0.render()
             }
                       
@@ -39,22 +39,17 @@ struct ContentView: View {
         .padding()
         .background(Color.black)
         .onAppear {
-            self.getViews()
-            self.getCharacters()
+            self.refreshContent()
         }
-//        .onReceive(timer) { _ in
-//            self.refreshContent()
-//        }
+        .onReceive(timer) { _ in
+            self.refreshContent()
+        }
     }
     
     // MARK: - Private Properties
     
-    // Auto-refresh characters every 3 seconds.
-//    private let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
-    
-    private var atViews: [UIComponent] {
-        state.parseViewsToComponents()
-    }
+    // Auto-refresh characters every 5 seconds.
+    private let timer = Timer.publish(every: 5, on: .main, in: .common).autoconnect()
     
     private var firstRowComponents: [UIComponent] {
         state.characters
@@ -87,15 +82,16 @@ struct ContentView: View {
     }
     
     private func refreshContent() {
+        getViews()
         getCharacters()
     }
     
     private func getViews() {
         AirtableService.getViews { result in
             switch result {
-            case .success(let views):
+            case .success(let viewComponents):
                 DispatchQueue.main.async {
-                    self.state.views = views
+                    self.state.viewComponents = viewComponents
                 }
             case .failure(let error):
                 print(error)
